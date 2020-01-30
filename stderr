@@ -1,0 +1,36 @@
+Building DAG of jobs...
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Using shell: /bin/bash
+Provided cores: 40
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	a
+	1
+Job counts:
+	count	jobs
+	1	a
+	1
+
+[Thu Jan 30 12:09:44 2020]
+
+rule a:
+    output: test.A.txt
+    jobid: 0
+    wildcards: sample=A
+[Thu Jan 30 12:09:44 2020]
+
+rule a:
+    output: test.B.txt
+    jobid: 0
+    wildcards: sample=B
+
+[Thu Jan 30 12:09:44 2020]
+Finished job 0.
+1 of 1 steps (100%) done
+[Thu Jan 30 12:09:44 2020]
+Finished job 0.
+1 of 1 steps (100%) done
